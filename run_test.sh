@@ -1,0 +1,1 @@
+/usr/bin/python3 /home/wlwll6873/nfs/project/SPU_simulator/test_mtx_matrix.py nell.mtx
