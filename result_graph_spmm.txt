@@ -1,0 +1,1532 @@
+// spmm128 parallel 1*8*8
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 13:09:56
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 1291520.0
+feasta cycle: 603925.0
+non_element: 23927808.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 13:10:03
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 307200.0
+feasta cycle: 326400.0
+non_element: 19558400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 13:10:04
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 73088.0
+feasta cycle: 58786.0
+non_element: 1165312.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 13:10:05
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 3409664.0
+feasta cycle: 1148418.0
+non_element: 62940416.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 13:10:23
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 70656.0
+feasta cycle: 50218.0
+non_element: 1351168.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 13:10:23
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 2558592.0
+feasta cycle: 1165469.0
+non_element: 47060736.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 13:10:39
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 14878464.0
+feasta cycle: 15808317.0
+non_element: 514653568.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 13:13:22
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 1152.0
+feasta cycle: 1122.0
+non_element: 31488.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 13:13:23
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 2446336.0
+feasta cycle: 1400188.0
+non_element: 32198400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 13:13:29
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 976512.0
+feasta cycle: 843591.0
+non_element: 45153536.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 13:13:37
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 781312.0
+feasta cycle: 422858.0
+non_element: 11346944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 13:13:40
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 35516032.0
+feasta cycle: 17837777.0
+non_element: 653444992.0
+
+// spmm128 parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 13:36:53
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 1291520.0
+feasta cycle: 386461.0
+non_element: 23927808.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 13:37:02
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 307200.0
+feasta cycle: 163200.0
+non_element: 19558400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 13:37:04
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 73088.0
+feasta cycle: 31161.0
+non_element: 1165312.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 13:37:05
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 3409664.0
+feasta cycle: 869057.0
+non_element: 62940416.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 13:37:26
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 70656.0
+feasta cycle: 27098.0
+non_element: 1351168.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 13:37:27
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 2558592.0
+feasta cycle: 758591.0
+non_element: 47060736.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 13:37:45
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 14878464.0
+feasta cycle: 7904150.0
+non_element: 514653568.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 13:40:11
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 1152.0
+feasta cycle: 561.0
+non_element: 31488.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 13:40:11
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 2446336.0
+feasta cycle: 799187.0
+non_element: 32198400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 13:40:22
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 976512.0
+feasta cycle: 457759.0
+non_element: 45153536.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 13:40:31
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 781312.0
+feasta cycle: 249577.0
+non_element: 11346944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 13:40:34
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 35516032.0
+feasta cycle: 12149237.0
+non_element: 653444992.0
+
+// spmm512 parallel 1*8*8
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 13:45:45
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 5166080.0
+feasta cycle: 2309125.0
+non_element: 95711232.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 13:45:55
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 1228800.0
+feasta cycle: 1248000.0
+non_element: 78233600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 13:45:56
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 292352.0
+feasta cycle: 224770.0
+non_element: 4661248.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 13:45:57
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 13638656.0
+feasta cycle: 4391010.0
+non_element: 251761664.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 13:46:17
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 282624.0
+feasta cycle: 192010.0
+non_element: 5404672.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 13:46:17
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 10234368.0
+feasta cycle: 4456205.0
+non_element: 188242944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 13:46:33
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 59513856.0
+feasta cycle: 60443565.0
+non_element: 2058614272.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 13:49:07
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 4608.0
+feasta cycle: 4290.0
+non_element: 125952.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 13:49:08
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 9785344.0
+feasta cycle: 5353660.0
+non_element: 128793600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 13:49:14
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 3906048.0
+feasta cycle: 3225495.0
+non_element: 180614144.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 13:49:21
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 3125248.0
+feasta cycle: 1616810.0
+non_element: 45387776.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 13:49:24
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 142064128.0
+feasta cycle: 68203265.0
+non_element: 2613779968.0
+
+// spmm512 parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 15:13:23
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 5166080.0
+feasta cycle: 1477645.0
+non_element: 95711232.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 15:13:29
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 1228800.0
+feasta cycle: 624000.0
+non_element: 78233600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 15:13:30
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 292352.0
+feasta cycle: 119145.0
+non_element: 4661248.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 15:13:31
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 13638656.0
+feasta cycle: 3322865.0
+non_element: 251761664.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 15:13:46
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 282624.0
+feasta cycle: 103610.0
+non_element: 5404672.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 15:13:47
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 10234368.0
+feasta cycle: 2900495.0
+non_element: 188242944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 15:14:01
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 59513856.0
+feasta cycle: 30221750.0
+non_element: 2058614272.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 15:16:10
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 4608.0
+feasta cycle: 2145.0
+non_element: 125952.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 15:16:10
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 9785344.0
+feasta cycle: 3055715.0
+non_element: 128793600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 15:16:16
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 3906048.0
+feasta cycle: 1750255.0
+non_element: 180614144.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 15:16:22
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 3125248.0
+feasta cycle: 954265.0
+non_element: 45387776.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 15:16:24
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 142064128.0
+feasta cycle: 46452965.0
+non_element: 2613779968.0
+
+// spmm64 parallel 1*8*8
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 15:34:39
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 645760.0
+feasta cycle: 319725.0
+non_element: 11963904.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 15:34:45
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 153600.0
+feasta cycle: 172800.0
+non_element: 9779200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 15:34:46
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 36544.0
+feasta cycle: 31122.0
+non_element: 582656.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 15:34:47
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 1704832.0
+feasta cycle: 607986.0
+non_element: 31470208.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 15:35:02
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 35328.0
+feasta cycle: 26586.0
+non_element: 675584.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 15:35:02
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 1279296.0
+feasta cycle: 617013.0
+non_element: 23530368.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 15:35:15
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 7439232.0
+feasta cycle: 8369109.0
+non_element: 257326784.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 15:37:23
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 576.0
+feasta cycle: 594.0
+non_element: 15744.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 15:37:23
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 1223168.0
+feasta cycle: 741276.0
+non_element: 16099200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 15:37:29
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 488256.0
+feasta cycle: 446607.0
+non_element: 22576768.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 15:37:36
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 390656.0
+feasta cycle: 223866.0
+non_element: 5673472.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 15:37:38
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 17758016.0
+feasta cycle: 9443529.0
+non_element: 326722496.0
+
+// spmm64 parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 16:01:17
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 35328.0
+feasta cycle: 14346.0
+non_element: 675584.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 16:01:18
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 390656.0
+feasta cycle: 132129.0
+non_element: 5673472.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 16:01:21
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 576.0
+feasta cycle: 297.0
+non_element: 15744.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 16:01:21
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 36544.0
+feasta cycle: 16497.0
+non_element: 582656.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 16:01:22
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 1223168.0
+feasta cycle: 423099.0
+non_element: 16099200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 16:01:31
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 1704832.0
+feasta cycle: 460089.0
+non_element: 31470208.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 16:01:47
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 645760.0
+feasta cycle: 204597.0
+non_element: 11963904.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 16:01:52
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 7439232.0
+feasta cycle: 4184550.0
+non_element: 257326784.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 16:04:00
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 153600.0
+feasta cycle: 86400.0
+non_element: 9779200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 16:04:01
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 1279296.0
+feasta cycle: 401607.0
+non_element: 23530368.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 16:04:09
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 488256.0
+feasta cycle: 242343.0
+non_element: 22576768.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 16:04:15
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 17758016.0
+feasta cycle: 6431949.0
+non_element: 326722496.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 16:30:17
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 35328.0
+feasta cycle: 14346.0
+non_element: 675584.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 16:30:17
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 390656.0
+feasta cycle: 132129.0
+non_element: 5673472.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 16:30:20
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 576.0
+feasta cycle: 297.0
+non_element: 15744.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 16:30:20
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 36544.0
+feasta cycle: 16497.0
+non_element: 582656.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 16:30:21
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 1223168.0
+feasta cycle: 423099.0
+non_element: 16099200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 16:30:31
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 1704832.0
+feasta cycle: 460089.0
+non_element: 31470208.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 16:30:46
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 645760.0
+feasta cycle: 204597.0
+non_element: 11963904.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 16:30:51
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 7439232.0
+feasta cycle: 4184550.0
+non_element: 257326784.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 16:33:04
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 153600.0
+feasta cycle: 86400.0
+non_element: 9779200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 16:33:05
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 1279296.0
+feasta cycle: 401607.0
+non_element: 23530368.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 16:33:13
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 488256.0
+feasta cycle: 242343.0
+non_element: 22576768.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 16:33:19
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 17758016.0
+feasta cycle: 6431949.0
+non_element: 326722496.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 16:47:51
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 35328.0
+feasta cycle: 14346.0
+non_element: 675584.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 16:47:52
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 390656.0
+feasta cycle: 132129.0
+non_element: 5673472.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 16:47:55
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 576.0
+feasta cycle: 297.0
+non_element: 15744.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 16:47:55
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 36544.0
+feasta cycle: 16497.0
+non_element: 582656.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 16:47:56
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 1223168.0
+feasta cycle: 423099.0
+non_element: 16099200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 16:48:06
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 1704832.0
+feasta cycle: 460089.0
+non_element: 31470208.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 16:48:22
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 645760.0
+feasta cycle: 204597.0
+non_element: 11963904.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 16:48:26
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 7439232.0
+feasta cycle: 4184550.0
+non_element: 257326784.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 16:50:35
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 153600.0
+feasta cycle: 86400.0
+non_element: 9779200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 16:50:36
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 1279296.0
+feasta cycle: 401607.0
+non_element: 23530368.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 16:50:44
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 488256.0
+feasta cycle: 242343.0
+non_element: 22576768.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 16:50:50
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 17758016.0
+feasta cycle: 6431949.0
+non_element: 326722496.0
+
+// 修改 parallel为2*8*4时spmm_fix时feasta的错误结果
+// spmm64 parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 17:07:09
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 35328.0
+feasta cycle: 27098.0
+non_element: 675584.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 17:07:09
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 390656.0
+feasta cycle: 249577.0
+non_element: 5673472.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 17:07:12
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 576.0
+feasta cycle: 561.0
+non_element: 15744.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 17:07:12
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 36544.0
+feasta cycle: 31161.0
+non_element: 582656.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 17:07:13
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 1223168.0
+feasta cycle: 799187.0
+non_element: 16099200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 17:07:23
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 1704832.0
+feasta cycle: 869057.0
+non_element: 31470208.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 17:07:38
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 645760.0
+feasta cycle: 386461.0
+non_element: 11963904.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 17:07:43
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 7439232.0
+feasta cycle: 7904150.0
+non_element: 257326784.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 17:09:53
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 153600.0
+feasta cycle: 163200.0
+non_element: 9779200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 17:09:54
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 1279296.0
+feasta cycle: 758591.0
+non_element: 23530368.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 17:10:02
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 488256.0
+feasta cycle: 457759.0
+non_element: 22576768.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 17:10:08
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 17758016.0
+feasta cycle: 12149237.0
+non_element: 326722496.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 17:15:00
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 70656.0
+feasta cycle: 52602.0
+non_element: 1351168.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 17:15:00
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 781312.0
+feasta cycle: 484473.0
+non_element: 11346944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 17:15:04
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 1152.0
+feasta cycle: 1089.0
+non_element: 31488.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 17:15:04
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 73088.0
+feasta cycle: 60489.0
+non_element: 1165312.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 17:15:04
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 2446336.0
+feasta cycle: 1551363.0
+non_element: 32198400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 17:15:14
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 3409664.0
+feasta cycle: 1686993.0
+non_element: 62940416.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 17:15:30
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 1291520.0
+feasta cycle: 750189.0
+non_element: 23927808.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 17:15:34
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 14878464.0
+feasta cycle: 15343350.0
+non_element: 514653568.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 17:17:47
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 307200.0
+feasta cycle: 316800.0
+non_element: 19558400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 17:17:48
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 2558592.0
+feasta cycle: 1472559.0
+non_element: 47060736.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 17:17:56
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 976512.0
+feasta cycle: 888591.0
+non_element: 45153536.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 17:18:03
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 35516032.0
+feasta cycle: 23583813.0
+non_element: 653444992.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 17:25:40
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 282624.0
+feasta cycle: 205626.0
+non_element: 5404672.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 17:25:41
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 3125248.0
+feasta cycle: 1893849.0
+non_element: 45387776.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 17:25:45
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 4608.0
+feasta cycle: 4257.0
+non_element: 125952.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 17:25:45
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 292352.0
+feasta cycle: 236457.0
+non_element: 4661248.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 17:25:45
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 9785344.0
+feasta cycle: 6064419.0
+non_element: 128793600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 17:25:56
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 13638656.0
+feasta cycle: 6594609.0
+non_element: 251761664.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 17:26:11
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 5166080.0
+feasta cycle: 2932557.0
+non_element: 95711232.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 17:26:15
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 59513856.0
+feasta cycle: 59978550.0
+non_element: 2058614272.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 17:28:31
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 1228800.0
+feasta cycle: 1238400.0
+non_element: 78233600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 17:28:31
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 10234368.0
+feasta cycle: 5756367.0
+non_element: 188242944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 17:28:39
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 3906048.0
+feasta cycle: 3473583.0
+non_element: 180614144.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 17:28:46
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 142064128.0
+feasta cycle: 92191269.0
+non_element: 2613779968.0
+
+// spmm64 sparsecore 
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 19:10:02
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 0.0
+feasta cycle: 55198.0
+non_element: 675584.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 19:10:03
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 0.0
+feasta cycle: 661631.0
+non_element: 5673472.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 19:10:06
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 0.0
+feasta cycle: 684.0
+non_element: 15744.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 19:10:06
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 0.0
+feasta cycle: 50128.0
+non_element: 582656.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 19:10:07
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 0.0
+feasta cycle: 1888041.0
+non_element: 16099200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 19:10:17
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 0.0
+feasta cycle: 3508053.0
+non_element: 31470208.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 19:10:32
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 0.0
+feasta cycle: 1178109.0
+non_element: 11963904.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 19:10:37
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 0.0
+feasta cycle: 7616990.0
+non_element: 257326784.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 19:12:52
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 0.0
+feasta cycle: 324300.0
+non_element: 9779200.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 19:12:53
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 0.0
+feasta cycle: 2382395.0
+non_element: 23530368.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 19:13:01
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 0.0
+feasta cycle: 922780.0
+non_element: 22576768.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 19:13:08
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 0.0
+feasta cycle: 29725090.0
+non_element: 326722496.0
+
+// spmm128 sparsecore 
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 19:25:14
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 0.0
+feasta cycle: 106990.0
+non_element: 1351168.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 19:25:14
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 0.0
+feasta cycle: 1283183.0
+non_element: 11346944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 19:25:18
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 0.0
+feasta cycle: 1324.0
+non_element: 31488.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 19:25:18
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 0.0
+feasta cycle: 97112.0
+non_element: 1165312.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 19:25:18
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 0.0
+feasta cycle: 3661153.0
+non_element: 32198400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 19:25:28
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 0.0
+feasta cycle: 6808941.0
+non_element: 62940416.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 19:25:44
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 0.0
+feasta cycle: 2285557.0
+non_element: 23927808.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 19:25:49
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 0.0
+feasta cycle: 14731222.0
+non_element: 514653568.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 19:27:57
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 0.0
+feasta cycle: 629500.0
+non_element: 19558400.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 19:27:58
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 0.0
+feasta cycle: 4622491.0
+non_element: 47060736.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 19:28:06
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 0.0
+feasta cycle: 1790484.0
+non_element: 45153536.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 19:28:13
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 0.0
+feasta cycle: 57647738.0
+non_element: 653444992.0
+
+// spmm512 sparsecore 
+==============================================
+/home/eva_share/zhongkai/graph_set/cora.mtx: 2023-08-09 19:31:32
+A nonzeros: 10556
+B nonzeros: 10556
+A shape: (2708, 2708)
+B shape: (2708, 2708)
+spada  cycle: 0.0
+feasta cycle: 417742.0
+non_element: 5404672.0
+==============================================
+/home/eva_share/zhongkai/graph_set/pubmed.mtx: 2023-08-09 19:31:33
+A nonzeros: 88648
+B nonzeros: 88648
+A shape: (19717, 19717)
+B shape: (19717, 19717)
+spada  cycle: 0.0
+feasta cycle: 5012495.0
+non_element: 45387776.0
+==============================================
+/home/eva_share/zhongkai/graph_set/lpi_forest6.mtx: 2023-08-09 19:31:36
+A nonzeros: 246
+B nonzeros: 246
+A shape: (66, 131)
+B shape: (131, 66)
+spada  cycle: 0.0
+feasta cycle: 5164.0
+non_element: 125952.0
+==============================================
+/home/eva_share/zhongkai/graph_set/citeseer.mtx: 2023-08-09 19:31:36
+A nonzeros: 9104
+B nonzeros: 9104
+A shape: (3327, 3327)
+B shape: (3327, 3327)
+spada  cycle: 0.0
+feasta cycle: 379016.0
+non_element: 4661248.0
+==============================================
+/home/eva_share/zhongkai/graph_set/nell.mtx: 2023-08-09 19:31:37
+A nonzeros: 251550
+B nonzeros: 251550
+A shape: (65755, 65755)
+B shape: (65755, 65755)
+spada  cycle: 0.0
+feasta cycle: 14299825.0
+non_element: 128793600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Computers.mtx: 2023-08-09 19:31:48
+A nonzeros: 491722
+B nonzeros: 491722
+A shape: (13752, 13752)
+B shape: (13752, 13752)
+spada  cycle: 0.0
+feasta cycle: 26614269.0
+non_element: 251761664.0
+==============================================
+/home/eva_share/zhongkai/graph_set/ca-CondMat.mtx: 2023-08-09 19:32:04
+A nonzeros: 186936
+B nonzeros: 186936
+A shape: (23133, 23133)
+B shape: (23133, 23133)
+spada  cycle: 0.0
+feasta cycle: 8930245.0
+non_element: 95711232.0
+==============================================
+/home/eva_share/zhongkai/graph_set/Hardesty2.mtx: 2023-08-09 19:32:08
+A nonzeros: 4020731
+B nonzeros: 4020731
+A shape: (929901, 303645)
+B shape: (303645, 929901)
+spada  cycle: 0.0
+feasta cycle: 57416614.0
+non_element: 2058614272.0
+==============================================
+/home/eva_share/zhongkai/graph_set/cari.mtx: 2023-08-09 19:34:27
+A nonzeros: 152800
+B nonzeros: 152800
+A shape: (400, 1200)
+B shape: (1200, 400)
+spada  cycle: 0.0
+feasta cycle: 2460700.0
+non_element: 78233600.0
+==============================================
+/home/eva_share/zhongkai/graph_set/email-Enron.mtx: 2023-08-09 19:34:28
+A nonzeros: 367662
+B nonzeros: 367662
+A shape: (36692, 36692)
+B shape: (36692, 36692)
+spada  cycle: 0.0
+feasta cycle: 18063067.0
+non_element: 188242944.0
+==============================================
+/home/eva_share/zhongkai/graph_set/poisson3Da.mtx: 2023-08-09 19:34:36
+A nonzeros: 352762
+B nonzeros: 352762
+A shape: (13514, 13514)
+B shape: (13514, 13514)
+spada  cycle: 0.0
+feasta cycle: 6996708.0
+non_element: 180614144.0
+==============================================
+/home/eva_share/zhongkai/graph_set/web-Google.mtx: 2023-08-09 19:34:42
+A nonzeros: 5105039
+B nonzeros: 5105039
+A shape: (916428, 916428)
+B shape: (916428, 916428)
+spada  cycle: 0.0
+feasta cycle: 225183626.0
+non_element: 2613779968.0

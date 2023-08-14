@@ -14,20 +14,20 @@ from sim_SortTime import spada_sortTime, feasta_sortTime, sparsecore_sortTime
 wind_row = 8
 wind_col = 8
 processor_num = 128
-hw_mode = "FEASTA_1*8*8"
+hw_mode = "SparseCore"
 assert hw_mode in ("FEASTA_1*8*8", "FEASTA_2*8*4", "SparseCore")
 # if hw_mode == "SparseCore", feasta_time means sparsecore time
 mtx_data_dir = "/home/eva_share/zhongkai/graph_set/"
 
 
-def get_sparse_matrix_AB_csr(weight_file_dir, feature_file_dir, f):
-    sp_mat_A = sio.mmread(weight_file_dir)
-    sp_mat_B = sio.mmread(feature_file_dir)
+def get_sparse_matrix_AB_csr(file_dir, f):
+    sp_mat_A = sio.mmread(file_dir)
+    sp_mat_B = copy.deepcopy(sp_mat_A)
     
     cols_A, rows_A = sp_mat_A.shape
 
-    # if cols_A != rows_A:
-    #     sp_mat_B = sp_mat_B.transpose()
+    if cols_A != rows_A:
+        sp_mat_B = sp_mat_B.transpose()
     
     sp_mat_A = sp_mat_A.tocsr()
     f.write("A nonzeros: " + str(sp_mat_A.nnz) + "\n")
@@ -40,11 +40,9 @@ def get_sparse_matrix_AB_csr(weight_file_dir, feature_file_dir, f):
     cols_B, rows_B = sp_mat_B.shape
     f.write("A shape: " + str(sp_mat_A.shape) + "\n")
     f.write("B shape: " + str(sp_mat_B.shape) + "\n")
-    print("A shape: " + str(sp_mat_A.shape))
-    print("B shape: " + str(sp_mat_B.shape))
     # print(sp_mat_A.indptr.shape)
     # print(sp_mat_B.indptr.shape)
-    # assert cols_A == rows_B
+    assert cols_A == rows_B
     assert rows_A == cols_B
     return sp_mat_A, sp_mat_B
 
@@ -122,13 +120,14 @@ def calc_single_tile(args_list):
     return (col_tile_id, spata_all_rows_tile_time, feasta_all_rows_tile_time, non_element_sum)
 
 
-def simulation_top(weight_file_dir, feature_file_dir, output_dir):
+
+def simulation_top(file_dir, output_dir):
     with open(output_dir, "a") as f:
         f.write("==============================================\n")
-        f.write("%s %s: %s\n" % (weight_file_dir, feature_file_dir, time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
-        print("%s %s: %s" % (weight_file_dir, feature_file_dir, time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
-        print("loading mtx file: " + str(weight_file_dir) + " " + str(feature_file_dir))
-        sp_mat_A, sp_mat_B = get_sparse_matrix_AB_csr(weight_file_dir, feature_file_dir, f)
+        f.write("%s: %s\n" % (file_dir, time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
+        print("%s: %s" % (file_dir, time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())))
+        print("loading mtx file: " + str(file_dir))
+        sp_mat_A, sp_mat_B = get_sparse_matrix_AB_csr(file_dir, f)
     
         cols_A, rows_A = sp_mat_A.shape
         max_col_tile_num = (cols_A + wind_col - 1) // wind_col
@@ -177,18 +176,7 @@ def simulation_top(weight_file_dir, feature_file_dir, output_dir):
 
 
 if __name__ == "__main__":
-    base_dir = "/home/eva_share/zhongkai/cnn_set/"
-    weight_filenames = [#"alexnet/weight/features.3_weight.mtx", "alexnet/weight/features.8_weight.mtx", \
-                        # "resnet18/weight/layer3.1.conv1_weight.mtx", "resnet18/weight/layer4.1.conv2_weight.mtx", \
-                        # "resnet18/weight/layer3.1.conv1_weight.mtx", "resnet18/weight/layer4.1.conv2_weight.mtx", \
-                        # "vgg16/weight/features.17_weight.mtx", "vgg16/weight/features.40_weight.mtx"]
-                        "vgg16/weight/features.27_weight.mtx"]
-    feature_filenames = [#"alexnet/feature/features.3_feature.mtx", "alexnet/feature/features.8_feature.mtx", \
-                        #  "resnet18/feature/layer3.1.conv1_feature.mtx", "resnet18/feature/layer4.1.conv2_feature.mtx", \
-                        #  "resnet18/feature/layer3.1.conv1_feature_batch.mtx", "resnet18/feature/layer4.1.conv2_feature_batch.mtx", \
-                        #  "vgg16/feature/features.17_feature.mtx", "vgg16/feature/features.40_feature.mtx"]
-                        "vgg16/feature/features.27_feature.mtx"]
-    for i in range(len(weight_filenames)):
-        weight_filename = weight_filenames[i]
-        feature_filename = feature_filenames[i]
-        simulation_top(os.path.join(base_dir, weight_filename), os.path.join(base_dir, feature_filename), "result_cnn.txt")
+    base_dir = "/home/eva_share/zhongkai/tf_set/"
+    for name in ["bert-base-uncased-l1-query-0.9500.mtx", "opt-6.7b-attention-map-0.9813-7-22.mtx"]:
+        simulation_top(os.path.join(base_dir, name), "result_tf_spmm.txt")
+

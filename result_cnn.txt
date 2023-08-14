@@ -87,3 +87,415 @@ non_element: 39142129.0
 
 // 增大resnet18 feature的维度，batch. 
 // our parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.3_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.3_feature.mtx: 2023-08-09 06:27:59
+A nonzeros: 195961
+B nonzeros: 720098
+A shape: (192, 1600)
+B shape: (1600, 729)
+spada  cycle: 2233022.0
+feasta cycle: 2920609.0
+non_element: 88830598.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.8_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.8_feature.mtx: 2023-08-09 06:28:13
+A nonzeros: 525625
+B nonzeros: 100762
+A shape: (256, 3456)
+B shape: (3456, 169)
+spada  cycle: 683700.0
+feasta cycle: 863243.0
+non_element: 15346445.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature.mtx: 2023-08-09 06:28:17
+A nonzeros: 136003
+B nonzeros: 20015
+A shape: (256, 2304)
+B shape: (2304, 49)
+spada  cycle: 61302.0
+feasta cycle: 105905.0
+non_element: 1166401.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature.mtx: 2023-08-09 06:28:18
+A nonzeros: 149989
+B nonzeros: 6284
+A shape: (512, 4608)
+B shape: (4608, 16)
+spada  cycle: 22933.0
+feasta cycle: 61269.0
+non_element: 196393.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature_batch.mtx: 2023-08-09 06:28:19
+A nonzeros: 136003
+B nonzeros: 96987
+A shape: (256, 2304)
+B shape: (2304, 245)
+spada  cycle: 245840.0
+feasta cycle: 262717.0
+non_element: 5702110.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature_batch.mtx: 2023-08-09 06:28:20
+A nonzeros: 149989
+B nonzeros: 142414
+A shape: (512, 4608)
+B shape: (4608, 256)
+spada  cycle: 249045.0
+feasta cycle: 251694.0
+non_element: 4481747.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.17_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.17_feature.mtx: 2023-08-09 06:28:22
+A nonzeros: 364677
+B nonzeros: 2843075
+A shape: (256, 2304)
+B shape: (2304, 3136)
+spada  cycle: 15595409.0
+feasta cycle: 15682827.0
+non_element: 480701536.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.40_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.40_feature.mtx: 2023-08-09 06:29:30
+A nonzeros: 1318451
+B nonzeros: 136318
+A shape: (512, 4608)
+B shape: (4608, 196)
+spada  cycle: 1836740.0
+feasta cycle: 2191492.0
+non_element: 39142129.0
+
+// feasta的结果是SparseCore的结果；spada的结果是错的不用管
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.3_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.3_feature.mtx: 2023-08-09 14:16:02
+A nonzeros: 195961
+B nonzeros: 720098
+A shape: (192, 1600)
+B shape: (1600, 729)
+spada  cycle: 0.0
+feasta cycle: 4013168.0
+non_element: 88830598.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.8_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.8_feature.mtx: 2023-08-09 14:16:20
+A nonzeros: 525625
+B nonzeros: 100762
+A shape: (256, 3456)
+B shape: (3456, 169)
+spada  cycle: 0.0
+feasta cycle: 1781116.0
+non_element: 15346445.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature.mtx: 2023-08-09 14:16:26
+A nonzeros: 136003
+B nonzeros: 20015
+A shape: (256, 2304)
+B shape: (2304, 49)
+spada  cycle: 0.0
+feasta cycle: 166307.0
+non_element: 1166401.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature.mtx: 2023-08-09 14:16:27
+A nonzeros: 149989
+B nonzeros: 6284
+A shape: (512, 4608)
+B shape: (4608, 16)
+spada  cycle: 0.0
+feasta cycle: 69194.0
+non_element: 196393.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature_batch.mtx: 2023-08-09 14:16:28
+A nonzeros: 136003
+B nonzeros: 96987
+A shape: (256, 2304)
+B shape: (2304, 245)
+spada  cycle: 0.0
+feasta cycle: 758612.0
+non_element: 5702110.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature_batch.mtx: 2023-08-09 14:16:31
+A nonzeros: 149989
+B nonzeros: 142414
+A shape: (512, 4608)
+B shape: (4608, 256)
+spada  cycle: 0.0
+feasta cycle: 823411.0
+non_element: 4481747.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.17_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.17_feature.mtx: 2023-08-09 14:16:33
+A nonzeros: 364677
+B nonzeros: 2843075
+A shape: (256, 2304)
+B shape: (2304, 3136)
+spada  cycle: 0.0
+feasta cycle: 27540757.0
+non_element: 480701536.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.40_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.40_feature.mtx: 2023-08-09 14:18:50
+A nonzeros: 1318451
+B nonzeros: 136318
+A shape: (512, 4608)
+B shape: (4608, 196)
+spada  cycle: 0.0
+feasta cycle: 5106852.0
+non_element: 39142129.0
+
+// spmm parallel 1*8*8
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.3_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.3_feature.mtx: 2023-08-09 17:40:26
+A nonzeros: 195961
+B nonzeros: 720098
+A shape: (192, 1600)
+B shape: (1600, 729)
+spada  cycle: 2472768.0
+feasta cycle: 2261176.0
+non_element: 142855569.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.8_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.8_feature.mtx: 2023-08-09 17:40:28
+A nonzeros: 525625
+B nonzeros: 100762
+A shape: (256, 3456)
+B shape: (3456, 169)
+spada  cycle: 1478581.0
+feasta cycle: 1447886.0
+non_element: 88830625.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature.mtx: 2023-08-09 17:40:29
+A nonzeros: 136003
+B nonzeros: 20015
+A shape: (256, 2304)
+B shape: (2304, 49)
+spada  cycle: 128184.0
+feasta cycle: 119805.0
+non_element: 6664147.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature.mtx: 2023-08-09 17:40:30
+A nonzeros: 149989
+B nonzeros: 6284
+A shape: (512, 4608)
+B shape: (4608, 16)
+spada  cycle: 46816.0
+feasta cycle: 56919.0
+non_element: 2399824.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature_batch.mtx: 2023-08-09 17:40:31
+A nonzeros: 136003
+B nonzeros: 96987
+A shape: (256, 2304)
+B shape: (2304, 245)
+spada  cycle: 640920.0
+feasta cycle: 530565.0
+non_element: 33320735.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature_batch.mtx: 2023-08-09 17:40:32
+A nonzeros: 149989
+B nonzeros: 142414
+A shape: (512, 4608)
+B shape: (4608, 256)
+spada  cycle: 749056.0
+feasta cycle: 626109.0
+non_element: 38397184.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.17_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.17_feature.mtx: 2023-08-09 17:40:33
+A nonzeros: 364677
+B nonzeros: 2843075
+A shape: (256, 2304)
+B shape: (2304, 3136)
+spada  cycle: 19465152.0
+feasta cycle: 17962065.0
+non_element: 1143627072.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.40_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.40_feature.mtx: 2023-08-09 17:40:41
+A nonzeros: 1318451
+B nonzeros: 136318
+A shape: (512, 4608)
+B shape: (4608, 196)
+spada  cycle: 4309452.0
+feasta cycle: 4125625.0
+non_element: 258416396.0
+
+// spmm parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.3_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.3_feature.mtx: 2023-08-09 17:45:39
+A nonzeros: 195961
+B nonzeros: 720098
+A shape: (192, 1600)
+B shape: (1600, 729)
+spada  cycle: 2472768.0
+feasta cycle: 2357955.0
+non_element: 142855569.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.8_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.8_feature.mtx: 2023-08-09 17:45:41
+A nonzeros: 525625
+B nonzeros: 100762
+A shape: (256, 3456)
+B shape: (3456, 169)
+spada  cycle: 1478581.0
+feasta cycle: 1449100.0
+non_element: 88830625.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature.mtx: 2023-08-09 17:45:43
+A nonzeros: 136003
+B nonzeros: 20015
+A shape: (256, 2304)
+B shape: (2304, 49)
+spada  cycle: 128184.0
+feasta cycle: 121381.0
+non_element: 6664147.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature.mtx: 2023-08-09 17:45:43
+A nonzeros: 149989
+B nonzeros: 6284
+A shape: (512, 4608)
+B shape: (4608, 16)
+spada  cycle: 46816.0
+feasta cycle: 51480.0
+non_element: 2399824.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature_batch.mtx: 2023-08-09 17:45:44
+A nonzeros: 136003
+B nonzeros: 96987
+A shape: (256, 2304)
+B shape: (2304, 245)
+spada  cycle: 640920.0
+feasta cycle: 578894.0
+non_element: 33320735.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature_batch.mtx: 2023-08-09 17:45:45
+A nonzeros: 149989
+B nonzeros: 142414
+A shape: (512, 4608)
+B shape: (4608, 256)
+spada  cycle: 749056.0
+feasta cycle: 669240.0
+non_element: 38397184.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.17_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.17_feature.mtx: 2023-08-09 17:45:46
+A nonzeros: 364677
+B nonzeros: 2843075
+A shape: (256, 2304)
+B shape: (2304, 3136)
+spada  cycle: 19465152.0
+feasta cycle: 18675150.0
+non_element: 1143627072.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.40_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.40_feature.mtx: 2023-08-09 17:45:54
+A nonzeros: 1318451
+B nonzeros: 136318
+A shape: (512, 4608)
+B shape: (4608, 196)
+spada  cycle: 4309452.0
+feasta cycle: 4240000.0
+non_element: 258416396.0
+
+\\ spmm sparsecore
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.3_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.3_feature.mtx: 2023-08-09 19:56:00
+A nonzeros: 195961
+B nonzeros: 720098
+A shape: (192, 1600)
+B shape: (1600, 729)
+spada  cycle: 0.0
+feasta cycle: 4947417.0
+non_element: 142855569.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/alexnet/weight/features.8_weight.mtx /home/eva_share/zhongkai/cnn_set/alexnet/feature/features.8_feature.mtx: 2023-08-09 19:56:03
+A nonzeros: 525625
+B nonzeros: 100762
+A shape: (256, 3456)
+B shape: (3456, 169)
+spada  cycle: 0.0
+feasta cycle: 3003996.0
+non_element: 88830625.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature.mtx: 2023-08-09 19:56:04
+A nonzeros: 136003
+B nonzeros: 20015
+A shape: (256, 2304)
+B shape: (2304, 49)
+spada  cycle: 0.0
+feasta cycle: 270208.0
+non_element: 6664147.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature.mtx: 2023-08-09 19:56:05
+A nonzeros: 149989
+B nonzeros: 6284
+A shape: (512, 4608)
+B shape: (4608, 16)
+spada  cycle: 0.0
+feasta cycle: 115817.0
+non_element: 2399824.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer3.1.conv1_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer3.1.conv1_feature_batch.mtx: 2023-08-09 19:56:06
+A nonzeros: 136003
+B nonzeros: 96987
+A shape: (256, 2304)
+B shape: (2304, 245)
+spada  cycle: 0.0
+feasta cycle: 1288608.0
+non_element: 33320735.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/resnet18/weight/layer4.1.conv2_weight.mtx /home/eva_share/zhongkai/cnn_set/resnet18/feature/layer4.1.conv2_feature_batch.mtx: 2023-08-09 19:56:07
+A nonzeros: 149989
+B nonzeros: 142414
+A shape: (512, 4608)
+B shape: (4608, 256)
+spada  cycle: 0.0
+feasta cycle: 1505237.0
+non_element: 38397184.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.17_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.17_feature.mtx: 2023-08-09 19:56:08
+A nonzeros: 364677
+B nonzeros: 2843075
+A shape: (256, 2304)
+B shape: (2304, 3136)
+spada  cycle: 0.0
+feasta cycle: 38863011.0
+non_element: 1143627072.0
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.40_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.40_feature.mtx: 2023-08-09 19:56:16
+A nonzeros: 1318451
+B nonzeros: 136318
+A shape: (512, 4608)
+B shape: (4608, 196)
+spada  cycle: 0.0
+feasta cycle: 8784000.0
+non_element: 258416396.0
+
+// spmspm vgg27 parallel 1*8*8
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.27_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.27_feature.mtx: 2023-08-10 09:27:12
+A nonzeros: 931525
+B nonzeros: 882840
+A shape: (512, 4608)
+B shape: (4608, 784)
+spada  cycle: 6094160.0
+feasta cycle: 3600789.0
+non_element: 178676698.0
+
+//spmspm vgg27 parallel 2*8*4
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.27_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.27_feature.mtx: 2023-08-10 09:33:39
+A nonzeros: 931525
+B nonzeros: 882840
+A shape: (512, 4608)
+B shape: (4608, 784)
+spada  cycle: 6094160.0
+feasta cycle: 3926045.0
+non_element: 178676698.0
+
+// spmspm vgg27 sparsecore
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.27_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.27_feature.mtx: 2023-08-10 09:38:32
+A nonzeros: 931525
+B nonzeros: 882840
+A shape: (512, 4608)
+B shape: (4608, 784)
+spada  cycle: 0.0
+feasta cycle: 16220617.0
+non_element: 178676698.0
+
+// spmm vgg27 parallel 1*8*8
+==============================================
+/home/eva_share/zhongkai/cnn_set/vgg16/weight/features.27_weight.mtx /home/eva_share/zhongkai/cnn_set/vgg16/feature/features.27_feature.mtx: 2023-08-10 09:40:32
+A nonzeros: 931525
+B nonzeros: 882840
+A shape: (512, 4608)
+B shape: (4608, 784)
+spada  cycle: 12968928.0
+feasta cycle: 11549835.0
+non_element: 730315600.0
