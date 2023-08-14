@@ -1,8 +1,12 @@
 # SPU_simulator
-|- README.md
+|- README.md 
+
 |- test_graph_matrix.py 
+
 |- test_tf_matrix.py
+
 |- test_cnn_matrix.py
+
 |- sim_SortTime.py
 
 - test_graph_matrix.py: test graph datasets
